@@ -16,9 +16,7 @@ const Hero = () => {
             <button className="btn btn-outline" href="">Documentation</button>
             <button className="btn btn-outline" href="">FAQ</button>
         </div>
-        <div className="bottom-text">
             <h2>Total Volume Secured : $42,104,783,662,47</h2>
-        </div>
     </div>
   )
 }

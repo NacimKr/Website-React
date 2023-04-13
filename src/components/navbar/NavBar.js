@@ -4,13 +4,13 @@ import './NavBar.css';
 
 const NavBar = () => {
 
-  const [active , setActive] = useState(false);
+  const [active , setActive] = useState(true);
 
   return (
     <div className="navbar">
         <div className="container">
             <h1 style={{marginLeft:"1rem", color:'#00d8ff'}}>Defi</h1>
-            <ul className={`nav ${active && 'active'}`}>
+            <ul className={active ? 'nav active' : 'nav'}>
                 <li className="nav-item">
                     <a href="">Platform</a>
                 </li>

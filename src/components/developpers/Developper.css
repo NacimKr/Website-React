@@ -1,0 +1,23 @@
+.developper .container-developper{
+    color:#f1f1f1;
+    display:flex;
+    margin:15px
+}
+
+.developper .container-developper .left h1{
+    margin-bottom:20px;
+}
+
+.developper .container-developper .right img{
+    width: 250px;
+    display: block;
+    margin: 50px auto;
+    filter: drop-shadow(0 0 0.75rem var(--primary-blue));
+}
+
+@media screen and (max-width:740px) {
+    .container-developper{
+        display:flex;
+        flex-direction: column;
+    }
+}

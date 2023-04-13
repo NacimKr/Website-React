@@ -1,0 +1,47 @@
+.about{
+    background:black;
+}
+
+.card-container{
+    margin:15px;
+    display: flex;
+    color: #f1f1f1;
+    gap:20px;
+}
+
+.card{
+    padding:30px 10px;
+    border:2px solid #f1f1f1;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.card div{
+    color:black;
+    background:var(--primary-blue);
+    padding:10px;
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.card h2{
+    font-size:20px;
+    padding-bottom:15px;
+}
+
+.about .container .btn{
+    margin: 20px auto 150px;
+    display: block;
+}
+
+@media screen and (max-width :740px) {
+    .card-container{
+        display: flex;
+        color: #f1f1f1;
+        gap:1px;
+        flex-direction: column;
+    }
+}
